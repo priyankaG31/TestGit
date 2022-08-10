@@ -6,4 +6,6 @@ from selenium.webdriver.chrome.service import Service
 driver = webdriver.Chrome(executable_path="C:\\BrowserDrivers\\chromedriver")
 
 driver.get("https://www.rcvacademy.com")
+print(driver.title)
+driver.quit()
 
